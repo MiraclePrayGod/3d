@@ -49,13 +49,12 @@ npm run build
 Genera una versión optimizada que se almacena en la carpeta build/. lista para desplegar. 
 GitHub
 
-✅ Funciones recomendadas / ideas puntuales
-Funcionalidad	Descripción
-Vista previa GLTFDragAndDrop	Arrastrar y soltar archivos .glb, .gltf o .zip.
-Iluminación HDR (PMREM)	Carga HDR .hdr para iluminación basada en imagen.
-Pose editable	Selector de animaciones o controladores IK.
-Cambio de color/textura	Selector visual para modificar materiales.
-Exportar escena .glb o imagen	Botón para capturar PNG o guardar escena.
+🚀 Ideas puntuales: funcionalidades sugeridas
+Funcionalidad / Expressión visual	Descripción detallada
+🎯 Vista previa interactiva (GLTF Drag‑and‑Drop)	Permite arrastrar y soltar modelos .glb, .gltf o .zip directamente en la interfaz y visualizar en tiempo real cómo se renderiza el avatar.
+💡 Iluminación HDR (PMREM)	Carga archivos .hdr para una iluminación ambiental realista basada en imagen, mejorando el realismo general del avatar.
+📸 Exportar escena: .glb, imagen o captura PNG	Botones de exportación para guardar la escena como archivo .glb o hacer una captura para descargar como .png.
+
 
 ⚙️ Configuración adicional
 Para agregar Three.js, ejecuta:
