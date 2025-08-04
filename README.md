@@ -25,6 +25,71 @@ Este proyecto fue generado con **Create React App** y está preparado para visua
 - 📦 Fácil despliegue estático con `npm run build`
 
 ---
+2. Ejecutar en modo desarrollo
+bash
+Copiar
+Editar
+npm start
+Visita http://localhost:3000 (o la URL que muestre la consola). La aplicación se recarga automáticamente al hacer cambios. 
+GitHub
 
-## 📂 Estructura del proyecto
+3. Ejecución de pruebas
+bash
+Copiar
+Editar
+npm test
+Inicia el runner interactivo de React Testing Library y Jest. 
+GitHub
+
+4. Compilación para producción
+bash
+Copiar
+Editar
+npm run build
+Genera una versión optimizada que se almacena en la carpeta build/. lista para desplegar. 
+GitHub
+
+✅ Funciones recomendadas / ideas puntuales
+Funcionalidad	Descripción
+Vista previa GLTFDragAndDrop	Arrastrar y soltar archivos .glb, .gltf o .zip.
+Iluminación HDR (PMREM)	Carga HDR .hdr para iluminación basada en imagen.
+Pose editable	Selector de animaciones o controladores IK.
+Cambio de color/textura	Selector visual para modificar materiales.
+Exportar escena .glb o imagen	Botón para capturar PNG o guardar escena.
+
+⚙️ Configuración adicional
+Para agregar Three.js, ejecuta:
+
+bash
+Copiar
+Editar
+npm install three @types/three @react-three/fiber @react-three/drei
+Asegúrate de regenerar el proyecto si eject fue ejecutado, ya que podrías perder scripts preconfigurados de Webpack/Babel. 
+GitHub
+
+🛠️ Cómo contribuir
+⚡ Haz un fork
+
+🧠 Crea una rama para tu mejora o issue: git checkout -b feature/nueva-feature
+
+💻 Realiza tus cambios
+
+🔧 Asegúrate de que las pruebas pasen: npm test
+
+📤 Haz un pull request detallando tu propuesta
+
+🎯 Próximos pasos
+Carga interactiva del avatar 
+
+Editor de texturas/materiales
+
+Personalización visual (ropa)
+
+Integración con WebXR o AR
+
+Créditos
+Corazón durante horas con React, Three.js y Create React App
+
+Inspirado en apps como Three.js Avatar Demo
+
 
